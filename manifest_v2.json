@@ -29,52 +29,47 @@
   "downloads": {
     "xmrw5": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmrw5xring": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmrw6": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmb10p": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
-      "versionCode": 1
-    },
-    "xmws3": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmws4xring": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmws441": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmws4": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
-      "versionCode": 1
-    },
-    "xmws5": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     },
     "xmws541": {
       "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws5": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
       "versionCode": 1
     }
   },
