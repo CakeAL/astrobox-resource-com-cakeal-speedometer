@@ -1,0 +1,82 @@
+{
+  "item": {
+    "id": "com.cakeal.speedometer",
+    "restype": "quick_app",
+    "name": "速度计",
+    "description": "GPS 速度计，配套 AstroBox 插件同步、管理和导出 GPX 轨迹。应用与插件版本均为 **1.0.0**，支持圆屏、方屏和窄屏布局。  \n支持显示当前经纬度，海拔，最高速度，平均速度等参数。\n可以用来没事记录一下你所乘坐的交通工具（公交车/出租车/轻轨/有轨电车/地铁（地上段））的速度，以及gpx轨迹。",
+    "preview": [
+      "media/速度计.png",
+      "media/0-1791619057.png",
+      "media/0-1791619063.png",
+      "media/0-1791619072.png"
+    ],
+    "icon": "media/icon小.png",
+    "cover": "media/速度计.png",
+    "author": [
+      {
+        "name": "CakeAL",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "Github",
+      "url": "https://github.com/CakeAL/velajs-speedometer",
+      "icon": "github-logo"
+    }
+  ],
+  "downloads": {
+    "xmrw5": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmrw5xring": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmrw6": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws3": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws4xring": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws441": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws4": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws5": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmws541": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.cakeal.speedometer.debug.1.0.0.rpk",
+      "versionCode": 1
+    }
+  },
+  "ext": {}
+}
