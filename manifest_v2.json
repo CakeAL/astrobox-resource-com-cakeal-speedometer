@@ -3,10 +3,10 @@
     "id": "com.cakeal.speedometer",
     "restype": "quick_app",
     "name": "速度计",
-    "description": "GPS 速度计，配套 AstroBox 插件同步、管理和导出 GPX 轨迹。应用与插件版本均为 **1.0.0**，支持圆屏、方屏和窄屏布局。  \n支持显示当前经纬度，海拔，最高速度，平均速度等参数。\n可以用来没事记录一下你所乘坐的交通工具（公交车/出租车/轻轨/有轨电车/地铁（地上段））的速度，以及gpx轨迹。",
+    "description": "GPS 速度计，配套 AstroBox 插件同步、管理和导出 GPX 轨迹。支持圆屏、方屏和窄屏布局。  \n支持显示当前经纬度，海拔，最高速度，平均速度等参数（海拔可能不准确，具体取决于location接口返回的数据，经测试红米watch 6上返回的是不准确的）。\n* 小米手环9Pro不支持geolocation接口。我也不知道为什么。所以无法支持。\n* 应用默认10s后进入黑屏状态（上方会有个一个点来提示当前状态/正在运行），但不是进入了后台（熄屏），因为该app会一直处于前台状态才能保证GPS的持续记录（经测试，如果按照默认的熄屏进入后台逻辑，GPS记录会随机在3分钟左右断开，导致该app被杀，无法持续写入gpx）。\n* 导出记录的GPX文件：请到AstroBox的插件下载“Speedometer GPX”，然后在手表上打开该app进行同步即可，可选下载到设备上。\n* 关于搜星比自带的运动慢的问题：经过测试发现，在部分有遮挡的场景，自带的运动连接了小米运动健康的情况下，大概需要2~3s即可；而该应用（通过调用geolocation接口）需要至少10s的时间。如果自带的应用没有连接小米运动健康，那么搜星的速度和该应用差不多。理论上来说连接过小米运动健康，会自动更新星历，而这个星历应该是通用的，所以不清楚是什么原因导致了调用geolocation更慢。具体可以查看https://github.com/CakeAL/velajs-speedometer/blob/main/docs/gps-location-findings.md\n可以用来没事记录一下你所乘坐的交通工具（公交车/出租车/轻轨/有轨电车/地铁（地上段））的速度，以及gpx轨迹。",
     "preview": [
       "media/speedometer-cover.png",
-      "media/0-1791628255.png",
+      "media/0-1791775042.png",
       "media/0-1791628276.png",
       "media/0-1791628347.png"
     ],
@@ -28,49 +28,49 @@
   ],
   "downloads": {
     "xmrw5": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmrw5xring": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmrw6": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmb10p": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmws4xring": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmws441": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmws4": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmws541": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     },
     "xmws5": {
-      "version": "1.0.0",
-      "file_name": "downloads/com.cakeal.speedometer.release.1.0.0.rpk",
-      "versionCode": 1
+      "version": "1.0.1",
+      "file_name": "downloads/com.cakeal.speedometer.release.1.0.1.rpk",
+      "versionCode": 2
     }
   },
   "ext": {}
